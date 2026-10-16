@@ -4,7 +4,7 @@
 
 Hands-on labs for course **3099704 AI for Digital Health**, Master of Science Program in Digital Health, Faculty of Medicine, Chulalongkorn University.
 
-Each lab is a self-contained Jupyter notebook that runs **free on Google Colab** with **public datasets** and **open-source models** only. Labs 1–8 are **individual work**, done alongside the live Zoom sessions; Lab 10 is the **report backbone of the group capstone project** (dataset-free: each group chooses its own public or synthetic dataset) (4–5 students, formed after the Week 6 capstone talk; in person on Sunday 18 October 2026: group work 10:15–15:45 and presentations 16:00–17:45 — see the [project handbook](capstone/README.md)).
+Each lab is a self-contained Jupyter notebook that runs **free on Google Colab** with **public datasets** and **open-source models** only. Labs 1–8 are **individual work**, done alongside the live Zoom sessions; Lab 10 is the **report backbone of the group capstone project** (dataset-free: each group chooses its own public or synthetic dataset) (4–5 students, formed after the Week 6 capstone talk; in person on Sunday 18 October 2026: group work 10:15–15:45 and presentations 16:00–17:45).
 
 Lab notebooks are written in **Thai** (slides are in English).
 
@@ -12,7 +12,7 @@ Lab notebooks are written in **Thai** (slides are in English).
 
 ## สำหรับผู้เรียน: การเปิด การรัน และการส่งชิ้นงาน
 
-ปฏิบัติการที่ 1–8 เป็น **งานเดี่ยว** ซึ่งดำเนินการควบคู่กับการเรียนการสอนผ่าน Zoom ส่วนปฏิบัติการที่ 10 เป็น **โครงรายงานของโครงงานกลุ่ม** (กลุ่มเลือกชุดข้อมูลเอง ไม่มีตารางอันดับ) (กลุ่มละ 4–5 คน ทำงานและนำเสนอในห้องเรียนภายในวันเดียว คือวันอาทิตย์ที่ 18 ตุลาคม 2569 ดู [คู่มือโครงงาน](capstone/README.md)) แต่ละปฏิบัติการประกอบด้วย 2 ส่วน ดังนี้
+ปฏิบัติการที่ 1–8 เป็น **งานเดี่ยว** ซึ่งดำเนินการควบคู่กับการเรียนการสอนผ่าน Zoom ส่วนปฏิบัติการที่ 10 เป็น **โครงรายงานของโครงงานกลุ่ม** (กลุ่มเลือกชุดข้อมูลเอง ไม่มีตารางอันดับ) (กลุ่มละ 4–5 คน ทำงานและนำเสนอในห้องเรียนภายในวันเดียว คือวันอาทิตย์ที่ 18 ตุลาคม 2569) แต่ละปฏิบัติการประกอบด้วย 2 ส่วน ดังนี้
 
 - ✅ **ส่วนหลัก — สำหรับผู้เรียนทุกคน ไม่จำเป็นต้องมีพื้นฐานการเขียนโปรแกรม** ให้รันเซลล์ตามลำดับจากบนลงล่าง เซลล์แบบฝึกหัด (ติดแท็ก **Exercise** และมีช่องว่าง `...` / `# TODO`) จะมีเซลล์ **✅ เฉลย** อยู่ถัดไปเสมอ ผู้เรียนควรทดลองทำแบบฝึกหัดด้วยตนเองก่อน หากไม่สามารถทำได้ ให้รันเซลล์เฉลยแล้วดำเนินการต่อ จากนั้นตอบคำถาม **✍️** ในเซลล์ข้อความ โน้ตบุ๊กที่รันครบทุกเซลล์พร้อมคำตอบถือเป็นชิ้นงานที่ต้องส่ง
 - 🏆 **โจทย์ท้าทายบนตารางอันดับ (Leaderboard) — ไม่บังคับ สำหรับผู้เรียนที่เขียนโปรแกรมได้** ท้ายปฏิบัติการที่ 1–8 แต่ละครั้งมีโจทย์ซึ่งให้คะแนนโดยอัตโนมัติบน Hugging Face Space ของรายวิชา โดยเริ่มจากแบบจำลองพื้นฐาน (baseline) ที่รันได้ทันที การปรับปรุงผลลัพธ์เป็นกิจกรรมเสริม และไม่นับเป็นส่วนหนึ่งของชิ้นงานที่ต้องส่ง
@@ -37,7 +37,7 @@ Lab notebooks are written in **Thai** (slides are in English).
 | 6 | [lab06](lab06_speech_processing.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wdittaya/AI-for-digital-health-course/blob/main/lab06_speech_processing.ipynb) | Speech processing / medical ASR | OpenAI Whisper (open weights), jiwer | ✅ | WER on 30 patient clips (lower is better) |
 | 7 | [lab07](lab07_document_processing.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wdittaya/AI-for-digital-health-course/blob/main/lab07_document_processing.ipynb) | Document processing & clinical extraction | Tesseract OCR, regex, NER | — | F1 over extracted labs & medications (20 reports) |
 | 8 | [lab08](lab08_llm_prompt_engineering.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wdittaya/AI-for-digital-health-course/blob/main/lab08_llm_prompt_engineering.ipynb) | LLMs & prompt engineering | Qwen2.5-1.5B-Instruct (open, Hugging Face) | ✅ | Extraction accuracy/F1 on 20 notes |
-| 10 | [lab10](lab10_capstone_prototype.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wdittaya/AI-for-digital-health-course/blob/main/lab10_capstone_prototype.ipynb) | Group capstone project report (in person, Sun 18 Oct 2026): canvas → data & label → baseline & model → honest evaluation → path to practice | Group's own public or synthetic dataset (examples in the [handbook](capstone/README.md)) | varies | — (no leaderboard) |
+| 10 | [lab10](lab10_capstone_prototype.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wdittaya/AI-for-digital-health-course/blob/main/lab10_capstone_prototype.ipynb) | Group capstone project report (in person, Sun 18 Oct 2026): canvas → data & label → baseline & model → honest evaluation → path to practice | Group's own public or synthetic dataset (examples in the notebook) | varies | — (no leaderboard) |
 
 ## Leaderboard (optional)
 
@@ -70,7 +70,7 @@ Submit from your notebook with `submit_to_leaderboard(...)`, or upload a file in
 
 - Pima Indians Diabetes — public domain
 - UCI Heart Disease (Cleveland) and Diabetes 130-US Hospitals — UCI ML Repository (CC BY 4.0)
-- Capstone example projects (handbook; groups load the data themselves): UCI Heart Failure Clinical Records, Chronic Kidney Disease, Maternal Health Risk and Breast Cancer Wisconsin (Diagnostic, also built into scikit-learn) — UCI ML Repository (CC BY 4.0)
+- Capstone example projects (listed in lab 10; groups load the data themselves): UCI Heart Failure Clinical Records, Chronic Kidney Disease, Maternal Health Risk and Breast Cancer Wisconsin (Diagnostic, also built into scikit-learn) — UCI ML Repository (CC BY 4.0)
 - MedMNIST (PneumoniaMNIST; for capstone examples also BloodMNIST, BreastMNIST, RetinaMNIST, CC BY 4.0, and DermaMNIST, CC BY-NC 4.0) — https://medmnist.com/
 - Brain-tumor detection — Ultralytics datasets (AGPL-3.0 code; dataset for research/education)
 - Medical Speech, Transcription, and Intent — Paul Mooney, Kaggle (CC BY 4.0); 30 clips re-sampled to 16 kHz in `data/asr/`
